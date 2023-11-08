@@ -12,8 +12,13 @@ body{
 .header{
     display: flex;
     justify-content: center;
+    background-color: #BDBDBD;
     padding: 30px;
+    margin: 0 5px 15px 5px;
     font-family: 'Butterscotch', Arial, Helvetica, sans-serif;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .header .titulo{
@@ -35,6 +40,7 @@ body{
     width: 95vw;
     padding: 20px 60px;
     border-radius: 10px 5px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .menu-container .menu p{
