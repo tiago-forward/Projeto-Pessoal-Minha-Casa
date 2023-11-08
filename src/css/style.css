@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Butterscotch';
+    src: url(../fonts/Butterscotch.otf) format('opentype'), url(../fonts/Butterscotch.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: #9E9E9E;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-family: 'Butterscotch', Arial, Helvetica, sans-serif;
+}
+
+.header .titulo{
+    color: #191919;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: center;
+    font-family: 'Butterscotch', Arial, Helvetica, sans-serif;
+}
+
+.menu{
+    background-color: #BDBDBD;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    width: 95vw;
+    padding: 20px 60px;
+    border-radius: 10px 5px;
+}
+
+.menu-container .menu p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #212121;
+    font-size: 50px;
+    height: 100%;
+}
+
+.menu-container .menu p:active{
+    color: #9E9E9E;
+}
+
+.outros, .sala, .cozinha, .quarto, .banheiro, .lavanderia{
+    background-color: #E0E0E0;
+    width: 400px;
+    height: 340px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    border: 0.5px solid rgba(255, 255, 255, 0.165);
+}
+
+.outros{
+    background-image: url(../images/outros.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sala{
+    background-image: url(../images/sala.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cozinha{
+    background-image: url(../images/cozinha.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.quarto{
+    background-image: url(../images/quarto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banheiro{
+    background-image: url(../images/banheiro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lavanderia{
+    background-image: url(../images/lavanderia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
