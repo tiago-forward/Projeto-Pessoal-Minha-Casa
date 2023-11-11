@@ -9,6 +9,8 @@ body{
     background-color: #9E9E9E;
 }
 
+/*HEADER*/
+
 .header{
     display: flex;
     justify-content: center;
@@ -24,6 +26,9 @@ body{
 .header .titulo{
     color: #191919;
 }
+
+
+/*MENU*/
 
 .menu-container{
     display: flex;
@@ -63,6 +68,11 @@ body{
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     border: 0.5px solid rgba(255, 255, 255, 0.165);
+    transition: 0.3s;
+}
+
+.outros:hover, .sala:hover, .cozinha:hover, .quarto:hover, .banheiro:hover, .lavanderia:hover{
+    opacity: 0.8;
 }
 
 .outros{
@@ -100,3 +110,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/*FOOTER*/
+
